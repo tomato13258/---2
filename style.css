@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+}
+
+.small_english {
+  font-family: "Edu VIC WA NT Beginner", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  color: #949dc2;
+}
+
+.small_english_pink {
+  color: #f5dcec;
+}
+
+h5 {
+  font-family: "Edu VIC WA NT Beginner", cursive;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+hr {
+  border: none;
+  height: 2px;
+  background-color: rgba(0, 0, 0, 0.3568627451);
+  margin: 20px auto;
+}
+
+.colorBox {
+  display: flex;
+  margin-bottom: 20px;
+}
+.colorBox .colorchip {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding-right: 20px;
+}
+.colorBox .colorchip .color_block {
+  width: 20px;
+  height: 20px;
+  border: #fff solid;
+}
+.colorBox .colorchip .color_block_white {
+  background-color: #f3f3eb;
+}
+.colorBox .colorchip .color_block_blue {
+  background-color: #949dc2;
+}
+.colorBox .colorchip .color_block_pink {
+  background-color: #f5dcec;
+}
+.colorBox .colorchip .color_block_green {
+  background-color: #fbff00;
+}
+.colorBox .colorchip .color_block_gray {
+  background-color: #414141;
+}
+
+.maxwidth {
+  word-break: break-all;
+}
+
+@media (max-width: 650px) {
+  .maxwidth {
+    width: 90%;
+  }
+}
+.header {
+  width: 100%;
+  height: 300px;
+  background-image: url(https://i.pinimg.com/564x/3e/26/4e/3e264ed9985fa1abb2bf52447f59bdcd.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.header::before {
+  content: "";
+  width: 100%;
+  height: 300px;
+  background: linear-gradient(rgba(212, 93, 197, 0.233), rgba(255, 230, 0, 0.185));
+  position: absolute;
+}
+.header .icon {
+  display: inline-block;
+  border: 3px solid #f3f3eb;
+  font-size: 50px;
+  color: #f3f3eb;
+  padding: 15px 30px;
+  z-index: 1;
+}
+
+.content {
+  padding: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.content_white {
+  background-color: #f3f3eb;
+  color: #414141;
+}
+
+.content_blue {
+  background-color: #949dc2;
+  color: #414141;
+}
+
+.content_gray {
+  background-color: #414141;
+  color: #f5dcec;
+}
+
+.button {
+  cursor: pointer;
+  display: inline;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-right: 10px;
+  font-weight: 700;
+  color: #414141;
+  font-size: 14px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  transition: 0.2s;
+}
+.button:hover {
+  background-color: #fbff00;
+}
+
+.button_blue {
+  background-color: #949dc2;
+}
+
+.button_white {
+  background-color: #f3f3eb;
+}
+
+.button_yellow {
+  background-color: #f5dcec;
+}
+
+.bright {
+  box-shadow: rgb(221, 140, 171) 0px 20px 30px -10px;
+}/*# sourceMappingURL=style.css.map */
